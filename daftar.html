@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="konten">
+            <h1>Form Registrasi</h1>
+            <p id="detailForm">Buat akun untuk mendapatkan akses penuh dan email penawaran terbaru</p>
+            <form id="registrationForm">
+                <label for="nama">Nama : </label>
+                <input type="text" id="nama" required placeholder="Nama"><br>
+                <label for="email">Email : </label>
+                <input type="email" id="email" required placeholder="Email"><br>
+                <label for="pekerjaan">Pekerjaan : </label>
+                <input type="text" id="pekerjaan" required placeholder="Pekerjaan"><br>
+                <label for="tanggalLahir">Tanggal Lahir : </label>
+                <input type="date" id="tanggalLahir" required placeholder="Tanggal Lahir"><br>
+                <label for="password">Password : </label>
+                <input type="password" id="password" required placeholder="Password"><br>
+                <label for="password2">Konfirmasi : </label>
+                <input type="password" id="password2" required placeholder="Konfirmasi Password"><br>
+                <input type="submit" value="Daftar">
+                <input type="reset" value="Batal"><br><br>
+                <a href="">Sudah punya akun? Login</a>
+            </form>
+            <div id="validasi" class="validasi">
+                <div class="validasi-content">
+                    <p>Apakah data sudah sesuai?</p>
+                    <button id="yes">Ya</button>
+                    <button id="no">Tidak</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
